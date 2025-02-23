@@ -1,0 +1,56 @@
+/* All common CSS start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* All common CSS end */
+
+#countPart{
+    background-image: linear-gradient(to right top, #b2c6e3, #60d7fc, #00e8e5, #00f098, #a8eb12);
+    padding: 100px 0;
+}
+.countBox{
+    padding: 80px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: radial-gradient(circle, #ebb1eb, #edbeee, #eecaf1, #f1d6f4, #f3e2f6);
+}
+.countBox h1{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 80px;
+}
+.buttonFlex{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.buttonFlex a{
+    padding: 10px 25px;
+    margin: 0 15px;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 60px;
+    background-image: linear-gradient(to right top, #1528ee, #006aff, #0093ff, #00b3fa, #20cfe9);
+}
